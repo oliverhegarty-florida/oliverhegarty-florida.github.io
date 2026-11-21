@@ -36,56 +36,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 #wpadminbar .quicklinks li#wp-admin-bar-stats a div { height: 32px; width: 95px; overflow: hidden; margin: 0 10px; }
 #wpadminbar .quicklinks li#wp-admin-bar-stats a:hover div { width: auto; margin: 0 8px 0 10px; }
 #wpadminbar .quicklinks li#wp-admin-bar-stats a img { height: 24px; margin: 4px 0; max-width: none; border: none; }
-		#wpadminbar .quicklinks li img.blavatar {
-			border-radius: 2px;
-		}
-		#wpadminbar #wp-admin-bar-site-name.has-site-icon > .ab-item {
-			display: flex;
-			align-items: center;
-			gap: 6px;
-		}
-		#wpadminbar #wp-admin-bar-site-name.has-site-icon > .ab-item:before {
-			content: none;
-		}
-		#wpadminbar #wp-admin-bar-site-name > .ab-item .site-icon {
-			width: 20px;
-			height: 20px;
-			border-radius: 2px;
-		}
-		@media screen and (max-width: 782px) {
-			#wpadminbar #wp-admin-bar-site-name > .ab-item .site-icon {
-				position: absolute;
-				top: 9px;
-				left: 12px;
-				width: 28px;
-				height: 28px;
-				margin: 0;
-				border-radius: 4px;
-			}
-		}
-
-		@media screen { html { margin-top: 32px !important; } }
-		@media screen and ( max-width: 782px ) { html { margin-top: 46px !important; } }
-	
-@media print { #wpadminbar { display:none; } }
-
-			.admin-bar {
-				position: inherit !important;
-				top: auto !important;
-			}
-			.admin-bar .goog-te-banner-frame {
-				top: 32px !important
-			}
-			@media screen and (max-width: 782px) {
-				.admin-bar .goog-te-banner-frame {
-					top: 46px !important;
-				}
-			}
-			@media screen and (max-width: 480px) {
-				.admin-bar .goog-te-banner-frame {
-					position: absolute;
-				}
-			}
 		
 /*# sourceURL=admin-bar-inline-css */
 </style>
